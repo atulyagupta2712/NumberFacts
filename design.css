@@ -1,0 +1,47 @@
+.container-fluid{
+    width: 60%;
+    margin: 0 auto;
+    
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+h1{
+    font-family: 'Acme', cursive;
+    font-size: 50px;
+}
+p{
+    font-family: 'Satisfy', cursive;
+    font-size: 24px;
+}
+h4{
+    font-family: 'Acme', cursive;
+    font-size: 30px;
+
+}
+
+@media(max-width: 786px){
+    .container-fluid{
+        width: 80%;
+    }
+    h1{
+        font-size: 40px
+    }
+    p{
+        font-size: 22px;
+    }
+}
+@media(max-width: 400px){
+    .container-fluid{
+        width: 90%;
+    }
+    h1{
+        font-size: 37px
+    }
+    p{
+        font-size: 20px;
+    }
+}
